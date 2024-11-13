@@ -1,0 +1,36 @@
+Indian Railways Library System
+
+This  is a C++ library for the Indian Railways that models railway stations, lines, and platforms. It ensures efficient management of train stoppages and through trains, enforcing timing constraints and validating input data.
+
+Introduction
+This library models essential aspects of an Indian Railways station, allowing users to manage station IDs, train lines, and platforms. Key features include enforcing time constraints for train stops, accepting both integer and string station IDs, and handling invalid input using C++'s principles of data hiding and polymorphism.
+
+Features
+Station ID Flexibility: Supports station IDs as either integers or strings.
+
+Train Timing Constraints:
+Stoppage trains are allowed only every 30 minutes.
+Through trains are allowed every 10 minutes.
+
+Validation: Invalid input data is rejected.
+
+Error Handling: Ensures user-provided data complies with constraints.
+
+Compiling the Project
+Use the provided Makefile to compile the code:
+
+Build Debug Version:
+    make debug
+
+Build Optimized Version:
+     make optimized
+
+Clean Project:
+     make clean
+
+Running the User Program
+After building, run the main executable to test the program:
+    ./assignment3A
+
+
+
